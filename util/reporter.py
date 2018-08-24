@@ -52,7 +52,6 @@ def create_report(w_dir, rep_lang, rep_type, topmost):
     filter_fn = filter_fn_dict.get(rep_type)
     lang_ext = lang_ext_dict.get(rep_lang)
     rep = rep_fn(w_dir, lang_ext, filter_fn, topmost)
-    print(rep)
     return rep
 
 
