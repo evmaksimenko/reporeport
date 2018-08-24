@@ -24,4 +24,3 @@ if __name__ == "__main__":
     logging.info("Formatted result: " + formatted_result)
 
     rep.report_output(params.out, formatted_result)
-
